@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile Page Social Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="Search Icon">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+
+            <!-- Setting Menu -->
+
+        <div class="setting-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Settings & Privacy  <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & Support  <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility  <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="#">Logout  <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- profile-page -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-img">
+                    <div>
+                        <h3>Jack Nicholson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                        <img src="images/member-5.png">
+
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"> <img src="images/add-friends.png">Friend</button>
+                <button type="button"> <img src="images/message.png">Message</button>
+                <br>
+                <a href="#"><img src="images/more.png" ></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelivable things. <img src="images/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="images/profile-job.png">Director at 99media Ltd</li>
+                        <li><img src="images/profile-study.png">Study at Oxford University</li>
+                        <li><img src="images/profile-study.png">Went to OPS NewYork</li>
+                        <li><img src="images/profile-home.png">Lives in California</li>
+                        <li><img src="images/profile-location.png">From New York</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+                    
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png"><p>Nickolas</p></div>
+                        <div><img src="images/member-2.png"><p>Simon</p></div>
+                        <div><img src="images/member-3.png"><p>Chris</p></div>
+                        <div><img src="images/member-4.png"><p>Doe</p></div>
+                        <div><img src="images/member-5.png"><p>Fuzzy</p></div>
+                        <div><img src="images/member-6.png"><p>Kin</p></div>
+                        <div><img src="images/member-7.png"><p>Bradon</p></div>
+                        <div><img src="images/member-8.png"><p>Edward</p></div>
+                        <div><img src="images/member-9.png"><p>James</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                        <div class="add-post-link">
+                            <a href="#"><img src="images/live-video.png">Like Video</a>
+                            <a href="#"><img src="images/photo.png">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>  
+                </div>
+                 <!-- Posts Start -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="span">June 24 2025, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">If you are not willing to risk the usual, you will have to settle for the ordinary. <span>Sparkless</span> <a href="#">#Trending</a><a href="#">#Foryou</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">24</div>
+                        <div><img src="images/share.png">120</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="span">June 38 2025, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">“Take up one idea... <span>Swami Vivekananda</span> <a href="#">#Trending</a><a href="#">#Foryou</a></p>
+                <img src="images/feed-image-2.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">222</div>
+                        <div><img src="images/comments.png">33</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="span">June 30 2025, 14:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">“Success is walking from failure to failure with no loss of enthusiasm.”<span> Winston Churchill</span> <a href="#">#Trending</a><a href="#">#Foryou</a></p>
+                <img src="images/feed-image-3.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">44</div>
+                        <div><img src="images/comments.png">66</div>
+                        <div><img src="images/share.png">99</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="span">July 03 2025, 19:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">“Try not to become a person of success, but rather try to become a person of value.” <span>Albert Einstein</span> <a href="#">#Trending</a><a href="#">#Foryou</a></p>
+                <img src="images/feed-image-4.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">24</div>
+                        <div><img src="images/share.png">120</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span class="span">July 03 2025, 19:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">“No one can make you feel inferior without your consent.” Eleanor Roosevelt “The distance between insanity and genius is measured only by success.” <span>Bruce Feirstein</span><a href="#">#Trending</a><a href="#">#Foryou</a></p>
+                <img src="images/feed-image-5.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">24</div>
+                        <div><img src="images/share.png">120</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <p>Copyright &copy;2025 - Malik Musadiq</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
